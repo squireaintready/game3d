@@ -1,0 +1,19 @@
+{
+    "name": "TowerDefense.Editor",
+    "rootNamespace": "TowerDefense.Editor",
+    "references": [
+        "TowerDefense",
+        "Unity.AI.Navigation.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

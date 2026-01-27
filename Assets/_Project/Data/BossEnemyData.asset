@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835453c93ce70d727a76245dc8c70813, type: 3}
+  m_Name: BossEnemyData
+  m_EditorClassIdentifier:
+  enemyName: Boss
+  prefab: {fileID: 0}
+  baseHealth: 300
+  baseSpeed: 1.2
+  baseKillReward: 50
+  healthScalePerWave: 1.2
+  speedScalePerWave: 1.01
+  killRewardPerWave: 5
+  modelPrefab: {fileID: 1088698322870422, guid: 78bc42a4ceca0424ca04f3b7e68989ef, type: 3}
+  modelScale: 0.9

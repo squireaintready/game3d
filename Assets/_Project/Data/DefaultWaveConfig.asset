@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d01f172faa4b8874f3d4e65fc71c8e6, type: 3}
+  m_Name: DefaultWaveConfig
+  m_EditorClassIdentifier: 
+  totalWaves: 15
+  buildPhaseDuration: 30
+  maxEarlyStartBonus: 50
+  roundSurvivalBonusBase: 25
+  roundSurvivalBonusPerWave: 5
+  waves:
+  - enemyCount: 5
+    spawnRate: 1
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 8
+    spawnRate: 1
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 10
+    spawnRate: 1.2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 12
+    spawnRate: 1.2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 15
+    spawnRate: 1.5
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 18
+    spawnRate: 1.5
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 20
+    spawnRate: 1.5
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 22
+    spawnRate: 1.8
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 25
+    spawnRate: 1.8
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 30
+    spawnRate: 2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 32
+    spawnRate: 2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 35
+    spawnRate: 2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 38
+    spawnRate: 2.2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 40
+    spawnRate: 2.2
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  - enemyCount: 50
+    spawnRate: 2.5
+    enemyType: {fileID: 11400000, guid: cbcfef7b2fda6487daa698c2fc74a8ee, type: 2}
+  easySettings:
+    enemyHealthMultiplier: 0.75
+    enemySpeedMultiplier: 0.9
+    enemyCountMultiplier: 0.8
+  normalSettings:
+    enemyHealthMultiplier: 1
+    enemySpeedMultiplier: 1
+    enemyCountMultiplier: 1
+  hardSettings:
+    enemyHealthMultiplier: 1.3
+    enemySpeedMultiplier: 1.1
+    enemyCountMultiplier: 1.2
