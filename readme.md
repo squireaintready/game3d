@@ -1,89 +1,38 @@
-# Tower Defense Game
+# Game3D — Tower Defense × Clash Royale
 
-## MVP (Minimum Viable Product)
+A 3D tower defense game inspired by Clash Royale, built in Unity with C#. Features real-time strategy gameplay with unit deployment, lane-based combat, and progressive difficulty.
 
-### Core Gameplay
-- Single map with tile-based layout
-- Path-based enemy movement from spawn to goal
-- Basic tower placement on valid tiles
-- Wave-based enemy spawning
+## Concept
 
-### Tiles
-- **tile_path**: Ground tiles where enemies walk
-- **tile_spawn**: Enemy spawn point(s)
-- **tile_goal**: Civilian area (enemy destination)
+Combines the strategic depth of tower defense with the real-time unit deployment mechanics of Clash Royale. Players deploy units along lanes to defend their base while attacking the enemy.
 
-### Towers
-| Tower | Cost | Function |
-|-------|------|----------|
-| Archer Tower | 75 gold | Ranged attack, fires arrows at enemies |
-| Wall Tower | 25 gold | Blocks paths, forces enemy rerouting |
+## Features
 
-### Enemies
-| Enemy | HP | Speed | Reward |
-|-------|-----|-------|--------|
-| Soldier | 60 | 2.0 | 10 gold |
-| Boss | 300 | 1.2 | 50 gold |
+- **3D Environment** — Full 3D arena with perspective camera and lighting
+- **Unit System** — Multiple unit types with unique stats, abilities, and costs
+- **Lane-Based Combat** — Strategic unit placement across multiple attack lanes
+- **Progressive Waves** — Increasing difficulty with varied enemy compositions
+- **Resource Management** — Elixir-style resource system for deploying units
 
-### Wave System
-- 15 waves total
-- Boss waves: 5, 10, 15
-- Progressive difficulty scaling
+## Tech Stack
 
-### MVP Features
-- Start/pause game controls
-- Gold economy (earn from kills, spend on towers)
-- Lives system (lose lives when enemies reach goal)
-- Basic UI showing gold, lives, wave number
+- **Engine:** Unity
+- **Language:** C#
+- **3D Assets:** Custom and Unity Asset Store
 
----
+## Project Structure
 
-## Final Version
+```
+game3d/
+├── Assets/          # Unity assets, scripts, scenes, prefabs
+├── Packages/        # Unity package manager
+└── ProjectSettings/ # Unity project configuration
+```
 
-### Additional Towers
-- Magic Tower (area damage)
-- Cannon Tower (slow, heavy damage)
-- Support Tower (buffs nearby towers)
+## Status
 
-### Additional Enemies
-- Fast Runner (low HP, high speed)
-- Tank (high HP, slow, resistant)
-- Flying (ignores walls)
-- Healer (heals nearby enemies)
+🚧 **In Development** — Core mechanics implemented, actively building new units and levels.
 
-### Map Features
-- Multiple maps with varying difficulty
-- Map editor for custom levels
-- Environmental hazards
+## Author
 
-### Progression
-- Tower upgrades (3 tiers per tower)
-- Achievement system
-- Unlockable content
-- Endless mode after completing waves
-
-### Polish
-- Particle effects for attacks and deaths
-- Sound effects and background music
-- Animated sprites for all units
-- Tutorial system
-- Save/load game state
-
----
-
-## Technical Notes
-
-### Sprite Sheets
-All sprite sheets use 5 columns x 6 rows (30 frames):
-- Towers: 176x194 per cell
-- Enemies: 166x208 per cell
-- Tiles: varies by asset
-
-### Pathfinding
-- NavMesh-based enemy movement
-- NavMeshObstacle on Wall Towers
-- Dynamic path recalculation when towers placed
-
-### Projectiles
-- Arrow: placeholder sprite (to be replaced)
-- Travels toward target, deals damage on hit
+**Samuel Jo** — [GitHub](https://github.com/squireaintready) · [LinkedIn](https://linkedin.com/in/samuel-jo)
